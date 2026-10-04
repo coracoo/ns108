@@ -1,0 +1,51 @@
+娘山36天罡角色与参考锚点清单
+
+36人按座次001–036连续编号，六格图按图内姓名核对。
+小图只参考面部与姿态；服饰按人物原提示词；性感以武松卡面为首要参考。
+旧吴用和旧公孙胜大图只作辅助画风参考。
+
+三张大图：
+style_anchors/武松_性感首要与画风原图.png | 1024×1536 | 性感程度的首要视觉参考，同时参考画风。
+style_anchors/吴用_辅助画风认可旧图.jpeg | 864×1536 | 辅助画风、明暗组织与大面积水墨质感。
+style_anchors/公孙胜_辅助画风认可旧图.jpeg | 864×1536 | 辅助画风、明暗组织与大面积水墨质感。
+
+角色与格位：
+001 宋江 | 第1组 1行1列 | 05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg | face_pose_anchors/001_宋江_面部姿态锚点.png | 288×512 | F Cup
+002 卢俊义 | 第1组 1行2列 | 05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg | face_pose_anchors/002_卢俊义_面部姿态锚点.png | 288×512 | G Cup
+003 吴用 | 第1组 2行1列 | 05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg | face_pose_anchors/003_吴用_面部姿态锚点.png | 288×498 | E Cup
+004 公孙胜 | 第1组 2行2列 | 05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg | face_pose_anchors/004_公孙胜_面部姿态锚点.png | 288×498 | F Cup
+005 关胜 | 第1组 3行1列 | 05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg | face_pose_anchors/005_关胜_面部姿态锚点.png | 288×526 | G Cup
+006 林冲 | 第1组 3行2列 | 05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg | face_pose_anchors/006_林冲_面部姿态锚点.png | 288×526 | F Cup
+007 秦明 | 第2组 1行1列 | AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg | face_pose_anchors/007_秦明_面部姿态锚点.png | 288×485 | G Cup
+008 呼延灼 | 第2组 1行2列 | AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg | face_pose_anchors/008_呼延灼_面部姿态锚点.png | 288×485 | F Cup
+009 花荣 | 第2组 2行1列 | AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg | face_pose_anchors/009_花荣_面部姿态锚点.png | 288×519 | E Cup
+010 柴进 | 第2组 2行2列 | AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg | face_pose_anchors/010_柴进_面部姿态锚点.png | 288×519 | G Cup
+011 李应 | 第2组 3行1列 | AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg | face_pose_anchors/011_李应_面部姿态锚点.png | 288×532 | E Cup
+012 朱仝 | 第2组 3行2列 | AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg | face_pose_anchors/012_朱仝_面部姿态锚点.png | 288×532 | F Cup
+013 鲁智深 | 第3组 1行1列 | CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg | face_pose_anchors/013_鲁智深_面部姿态锚点.png | 288×493 | G Cup
+014 武松 | 第3组 1行2列 | CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg | face_pose_anchors/014_武松_面部姿态锚点.png | 288×493 | G Cup
+015 董平 | 第3组 2行1列 | CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg | face_pose_anchors/015_董平_面部姿态锚点.png | 288×481 | F Cup
+016 张清 | 第3组 2行2列 | CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg | face_pose_anchors/016_张清_面部姿态锚点.png | 288×481 | E Cup
+017 杨志 | 第3组 3行1列 | CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg | face_pose_anchors/017_杨志_面部姿态锚点.png | 288×562 | F Cup
+018 徐宁 | 第3组 3行2列 | CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg | face_pose_anchors/018_徐宁_面部姿态锚点.png | 288×562 | E Cup
+019 索超 | 第4组 1行1列 | D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg | face_pose_anchors/019_索超_面部姿态锚点.png | 384×513 | G Cup
+020 戴宗 | 第4组 1行2列 | D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg | face_pose_anchors/020_戴宗_面部姿态锚点.png | 384×513 | E Cup
+021 刘唐 | 第4组 2行1列 | D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg | face_pose_anchors/021_刘唐_面部姿态锚点.png | 384×488 | F Cup
+022 李逵 | 第4组 2行2列 | D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg | face_pose_anchors/022_李逵_面部姿态锚点.png | 384×488 | G Cup
+023 史进 | 第4组 3行1列 | D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg | face_pose_anchors/023_史进_面部姿态锚点.png | 384×535 | F Cup
+024 穆弘 | 第4组 3行2列 | D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg | face_pose_anchors/024_穆弘_面部姿态锚点.png | 384×535 | G Cup
+025 雷横 | 第5组 1行1列 | 679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg | face_pose_anchors/025_雷横_面部姿态锚点.png | 384×512 | F Cup
+026 李俊 | 第5组 1行2列 | 679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg | face_pose_anchors/026_李俊_面部姿态锚点.png | 384×512 | G Cup
+027 阮小二 | 第5组 2行1列 | 679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg | face_pose_anchors/027_阮小二_面部姿态锚点.png | 384×509 | F Cup
+028 张横 | 第5组 2行2列 | 679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg | face_pose_anchors/028_张横_面部姿态锚点.png | 384×509 | G Cup
+029 阮小五 | 第5组 3行1列 | 679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg | face_pose_anchors/029_阮小五_面部姿态锚点.png | 384×515 | E Cup
+030 张顺 | 第5组 3行2列 | 679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg | face_pose_anchors/030_张顺_面部姿态锚点.png | 384×515 | E Cup
+031 阮小七 | 第6组 1行1列 | F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg | face_pose_anchors/031_阮小七_面部姿态锚点.png | 384×514 | F Cup
+032 杨雄 | 第6组 1行2列 | F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg | face_pose_anchors/032_杨雄_面部姿态锚点.png | 384×514 | E Cup
+033 石秀 | 第6组 2行1列 | F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg | face_pose_anchors/033_石秀_面部姿态锚点.png | 384×487 | E Cup
+034 解珍 | 第6组 2行2列 | F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg | face_pose_anchors/034_解珍_面部姿态锚点.png | 384×487 | F Cup
+035 解宝 | 第6组 3行1列 | F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg | face_pose_anchors/035_解宝_面部姿态锚点.png | 384×535 | E Cup
+036 燕青 | 第6组 3行2列 | F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg | face_pose_anchors/036_燕青_面部姿态锚点.png | 384×535 | F Cup
+
+裁切说明：按实际格线分割JPEG解码像素，保留原图文字，不重画、不拉伸、不放大；各源图格子比例不完全一致。
+4K为提示词，实际尺寸以上表为准。

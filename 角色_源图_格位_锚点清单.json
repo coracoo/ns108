@@ -1,0 +1,1154 @@
+{
+  "character_count": 36,
+  "source_groups": 6,
+  "rules": {
+    "小图": "只参考面部与姿态；不参考服饰、身材或性感程度。",
+    "服饰": "每人服饰字段沿用重新上传的36人原提示词，逐字核验。",
+    "性感": "武松原卡面为首要参考。",
+    "辅助画风": "旧吴用和旧公孙胜大图。"
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "name": "宋江",
+      "anchor_file": "face_pose_anchors/001_宋江_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 1,
+      "cell": "1行1列",
+      "source_file": "05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "source_library_file_id": "libfile_29d961014b7c8191911066afb2e1eaa9",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        0,
+        288,
+        512
+      ],
+      "width": 288,
+      "height": 512,
+      "sha256": "0c1fedaf03f89dee9f2d3e6a510cc0ab06030fd68429625c1ce503edbbf4e12f",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/001_宋江_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "卢俊义",
+      "anchor_file": "face_pose_anchors/002_卢俊义_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 1,
+      "cell": "1行2列",
+      "source_file": "05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "source_library_file_id": "libfile_29d961014b7c8191911066afb2e1eaa9",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        0,
+        576,
+        512
+      ],
+      "width": 288,
+      "height": 512,
+      "sha256": "f7f8f2c41fc7898e64b5622c0afbc96d082fcb2fd9d656e6ca0c6e29e7319dfc",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/002_卢俊义_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "吴用",
+      "anchor_file": "face_pose_anchors/003_吴用_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 1,
+      "cell": "2行1列",
+      "source_file": "05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "source_library_file_id": "libfile_29d961014b7c8191911066afb2e1eaa9",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        512,
+        288,
+        1010
+      ],
+      "width": 288,
+      "height": 498,
+      "sha256": "bd4a203229453ff4889a5d5e98493ecd0c774167153f18972e42d55be013d716",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/003_吴用_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "公孙胜",
+      "anchor_file": "face_pose_anchors/004_公孙胜_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 1,
+      "cell": "2行2列",
+      "source_file": "05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "source_library_file_id": "libfile_29d961014b7c8191911066afb2e1eaa9",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        512,
+        576,
+        1010
+      ],
+      "width": 288,
+      "height": 498,
+      "sha256": "4b063014d71fac110bba40fbf33828c6d83c63d40940845d4a26def93f5b9849",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/004_公孙胜_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "关胜",
+      "anchor_file": "face_pose_anchors/005_关胜_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 1,
+      "cell": "3行1列",
+      "source_file": "05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "source_library_file_id": "libfile_29d961014b7c8191911066afb2e1eaa9",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        1010,
+        288,
+        1536
+      ],
+      "width": 288,
+      "height": 526,
+      "sha256": "5c542ed974bebe64c054c8e3fa04689d2c4e1dd2d7dfb1ddaabb47955028ac34",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/005_关胜_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "林冲",
+      "anchor_file": "face_pose_anchors/006_林冲_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 1,
+      "cell": "3行2列",
+      "source_file": "05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "source_library_file_id": "libfile_29d961014b7c8191911066afb2e1eaa9",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        1010,
+        576,
+        1536
+      ],
+      "width": 288,
+      "height": 526,
+      "sha256": "9848ddf8bcbc6045343f9fd19666cff31f950253b0813b256d968519e3f9d943",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/006_林冲_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "秦明",
+      "anchor_file": "face_pose_anchors/007_秦明_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 2,
+      "cell": "1行1列",
+      "source_file": "AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "source_library_file_id": "libfile_ccb0602a60e48191863b4d695b7e7380",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        0,
+        288,
+        485
+      ],
+      "width": 288,
+      "height": 485,
+      "sha256": "d67c05e0316c00f5b892d616f795776c529f73b7156ac15bb2ac9d31279f67ca",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/007_秦明_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "呼延灼",
+      "anchor_file": "face_pose_anchors/008_呼延灼_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 2,
+      "cell": "1行2列",
+      "source_file": "AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "source_library_file_id": "libfile_ccb0602a60e48191863b4d695b7e7380",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        0,
+        576,
+        485
+      ],
+      "width": 288,
+      "height": 485,
+      "sha256": "10bb38c1c94e73e3f94d6cc45cbc736a24b39ee370b5594caf1fdf57893b3c19",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/008_呼延灼_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "花荣",
+      "anchor_file": "face_pose_anchors/009_花荣_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 2,
+      "cell": "2行1列",
+      "source_file": "AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "source_library_file_id": "libfile_ccb0602a60e48191863b4d695b7e7380",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        485,
+        288,
+        1004
+      ],
+      "width": 288,
+      "height": 519,
+      "sha256": "34c58004f727b8df09851160c9bca34839c76bbe22e980d885c36880d14fb4a2",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/009_花荣_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "柴进",
+      "anchor_file": "face_pose_anchors/010_柴进_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 2,
+      "cell": "2行2列",
+      "source_file": "AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "source_library_file_id": "libfile_ccb0602a60e48191863b4d695b7e7380",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        485,
+        576,
+        1004
+      ],
+      "width": 288,
+      "height": 519,
+      "sha256": "63935d9f54770d1fd788cd7812936188079f64b2ae30c9347ba922a2d89b6fd0",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/010_柴进_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "李应",
+      "anchor_file": "face_pose_anchors/011_李应_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 2,
+      "cell": "3行1列",
+      "source_file": "AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "source_library_file_id": "libfile_ccb0602a60e48191863b4d695b7e7380",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        1004,
+        288,
+        1536
+      ],
+      "width": 288,
+      "height": 532,
+      "sha256": "9ee32ec4446f941c40868e8ee422713de2b26d32955d36806e25c28157edf3e3",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/011_李应_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "朱仝",
+      "anchor_file": "face_pose_anchors/012_朱仝_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 2,
+      "cell": "3行2列",
+      "source_file": "AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "source_library_file_id": "libfile_ccb0602a60e48191863b4d695b7e7380",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        1004,
+        576,
+        1536
+      ],
+      "width": 288,
+      "height": 532,
+      "sha256": "0dc4fe8d43a38d2ae07f42d2a89772ca46bbffb086627cb55f19e733f2f8ff82",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/012_朱仝_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "鲁智深",
+      "anchor_file": "face_pose_anchors/013_鲁智深_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 3,
+      "cell": "1行1列",
+      "source_file": "CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "source_library_file_id": "libfile_9ef25b95c0648191993e9511a75bcf1c",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        0,
+        288,
+        493
+      ],
+      "width": 288,
+      "height": 493,
+      "sha256": "f4ed20cef4619945340a29de8ec26b090c0df5a722eefba1f44a252ab2bc2be3",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/013_鲁智深_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "武松",
+      "anchor_file": "face_pose_anchors/014_武松_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 3,
+      "cell": "1行2列",
+      "source_file": "CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "source_library_file_id": "libfile_9ef25b95c0648191993e9511a75bcf1c",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        0,
+        576,
+        493
+      ],
+      "width": 288,
+      "height": 493,
+      "sha256": "3cdd35301e26beb7bad33a7c95af1ba6532501810b56e985e12ba2dd8e79f539",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/014_武松_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "董平",
+      "anchor_file": "face_pose_anchors/015_董平_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 3,
+      "cell": "2行1列",
+      "source_file": "CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "source_library_file_id": "libfile_9ef25b95c0648191993e9511a75bcf1c",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        493,
+        288,
+        974
+      ],
+      "width": 288,
+      "height": 481,
+      "sha256": "d7d70b7be88d218d3586411d7e62d8fd5be41a894e0e1484cbfd3f7f2e7acd27",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/015_董平_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "张清",
+      "anchor_file": "face_pose_anchors/016_张清_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 3,
+      "cell": "2行2列",
+      "source_file": "CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "source_library_file_id": "libfile_9ef25b95c0648191993e9511a75bcf1c",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        493,
+        576,
+        974
+      ],
+      "width": 288,
+      "height": 481,
+      "sha256": "d0f7b5067cd138831a782bacf8f285a49c3cd5cd470a40f3e7ab8db136f62d40",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/016_张清_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "杨志",
+      "anchor_file": "face_pose_anchors/017_杨志_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 3,
+      "cell": "3行1列",
+      "source_file": "CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "source_library_file_id": "libfile_9ef25b95c0648191993e9511a75bcf1c",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        974,
+        288,
+        1536
+      ],
+      "width": 288,
+      "height": 562,
+      "sha256": "b28d7e6c000155134f89aae006a344cb8446cbf7aa47527c4526a1cbdb19edd8",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/017_杨志_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "徐宁",
+      "anchor_file": "face_pose_anchors/018_徐宁_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 3,
+      "cell": "3行2列",
+      "source_file": "CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "source_library_file_id": "libfile_9ef25b95c0648191993e9511a75bcf1c",
+      "source_version": 0,
+      "source_width": 576,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        288,
+        974,
+        576,
+        1536
+      ],
+      "width": 288,
+      "height": 562,
+      "sha256": "2199871c5c578de17b31949cbedc096555bc26422f44db50f6ec1c2d37aaa9a6",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/018_徐宁_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "索超",
+      "anchor_file": "face_pose_anchors/019_索超_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 4,
+      "cell": "1行1列",
+      "source_file": "D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "source_library_file_id": "libfile_f759e36444848191bb0b0a56b2b6a5c0",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        0,
+        384,
+        513
+      ],
+      "width": 384,
+      "height": 513,
+      "sha256": "feb4505a62172153cae07b914d9c1c3e981501973a04d8b7b049f38603173c7a",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/019_索超_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "戴宗",
+      "anchor_file": "face_pose_anchors/020_戴宗_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 4,
+      "cell": "1行2列",
+      "source_file": "D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "source_library_file_id": "libfile_f759e36444848191bb0b0a56b2b6a5c0",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        0,
+        768,
+        513
+      ],
+      "width": 384,
+      "height": 513,
+      "sha256": "1743744b64518c2dfc75786f4f11dcf0223d450784d6748eff37161e6d35b7be",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/020_戴宗_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "刘唐",
+      "anchor_file": "face_pose_anchors/021_刘唐_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 4,
+      "cell": "2行1列",
+      "source_file": "D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "source_library_file_id": "libfile_f759e36444848191bb0b0a56b2b6a5c0",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        513,
+        384,
+        1001
+      ],
+      "width": 384,
+      "height": 488,
+      "sha256": "f82c8ff8510699d479c50ce7d9cb90f864fc87dc9eee5a5391937cf7a35e6586",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/021_刘唐_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "李逵",
+      "anchor_file": "face_pose_anchors/022_李逵_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 4,
+      "cell": "2行2列",
+      "source_file": "D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "source_library_file_id": "libfile_f759e36444848191bb0b0a56b2b6a5c0",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        513,
+        768,
+        1001
+      ],
+      "width": 384,
+      "height": 488,
+      "sha256": "5101d56f0854637382997b3e23e8ac182e1f369530f7282fc32a36eaa71373e3",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/022_李逵_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "史进",
+      "anchor_file": "face_pose_anchors/023_史进_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 4,
+      "cell": "3行1列",
+      "source_file": "D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "source_library_file_id": "libfile_f759e36444848191bb0b0a56b2b6a5c0",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        1001,
+        384,
+        1536
+      ],
+      "width": 384,
+      "height": 535,
+      "sha256": "814d5c1f6e265b8f6365e771f33baaf9ed6d0ef1960803b840a6c184640e5848",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/023_史进_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "穆弘",
+      "anchor_file": "face_pose_anchors/024_穆弘_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 4,
+      "cell": "3行2列",
+      "source_file": "D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "source_library_file_id": "libfile_f759e36444848191bb0b0a56b2b6a5c0",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        1001,
+        768,
+        1536
+      ],
+      "width": 384,
+      "height": 535,
+      "sha256": "7263122ba4e3a93386e4b7499c00bcac2f3d74f40853a192d935ed4812a0788e",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/024_穆弘_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "雷横",
+      "anchor_file": "face_pose_anchors/025_雷横_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 5,
+      "cell": "1行1列",
+      "source_file": "679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "source_library_file_id": "libfile_4e02ac9ed0e4819197793c3785059c99",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "width": 384,
+      "height": 512,
+      "sha256": "4616e5591bae0f537a62f5692f7fbdbb9a27cec59ea5502c8d339cd9757c7209",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/025_雷横_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "李俊",
+      "anchor_file": "face_pose_anchors/026_李俊_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 5,
+      "cell": "1行2列",
+      "source_file": "679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "source_library_file_id": "libfile_4e02ac9ed0e4819197793c3785059c99",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        0,
+        768,
+        512
+      ],
+      "width": 384,
+      "height": 512,
+      "sha256": "e41a7b4d7ebcf821a82bc31e274f8e353c075dccae994db11be6147fcf8801c8",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/026_李俊_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "阮小二",
+      "anchor_file": "face_pose_anchors/027_阮小二_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 5,
+      "cell": "2行1列",
+      "source_file": "679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "source_library_file_id": "libfile_4e02ac9ed0e4819197793c3785059c99",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        512,
+        384,
+        1021
+      ],
+      "width": 384,
+      "height": 509,
+      "sha256": "659664531caf5a883bd360d7be8f29a0e577e2297aa60624c45d21bd698b60ff",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/027_阮小二_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "张横",
+      "anchor_file": "face_pose_anchors/028_张横_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 5,
+      "cell": "2行2列",
+      "source_file": "679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "source_library_file_id": "libfile_4e02ac9ed0e4819197793c3785059c99",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        512,
+        768,
+        1021
+      ],
+      "width": 384,
+      "height": 509,
+      "sha256": "5e70aabbe9e182aa3b633ca609bbc0511d7e8d4f7fa6f07c5d4582816004accb",
+      "resized": false,
+      "cup": "G Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/028_张横_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "阮小五",
+      "anchor_file": "face_pose_anchors/029_阮小五_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 5,
+      "cell": "3行1列",
+      "source_file": "679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "source_library_file_id": "libfile_4e02ac9ed0e4819197793c3785059c99",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        1021,
+        384,
+        1536
+      ],
+      "width": 384,
+      "height": 515,
+      "sha256": "5eeb6263cb221abe7a13adf486945dd4937c5931fcbc5e955cd6926b17dbc143",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/029_阮小五_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "张顺",
+      "anchor_file": "face_pose_anchors/030_张顺_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 5,
+      "cell": "3行2列",
+      "source_file": "679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "source_library_file_id": "libfile_4e02ac9ed0e4819197793c3785059c99",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        1021,
+        768,
+        1536
+      ],
+      "width": 384,
+      "height": 515,
+      "sha256": "5787308d4bcf2bb152e856ac9f1ef7816e468e2291ed08d447e6fa0a719efca5",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/030_张顺_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "阮小七",
+      "anchor_file": "face_pose_anchors/031_阮小七_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 6,
+      "cell": "1行1列",
+      "source_file": "F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "source_library_file_id": "libfile_cb39985a89b88191a19c980ef3f316c3",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        0,
+        384,
+        514
+      ],
+      "width": 384,
+      "height": 514,
+      "sha256": "7794fc4423ddf184642867844abf0f84a2dbae11dea12346344fee6becb9fa97",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/031_阮小七_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "杨雄",
+      "anchor_file": "face_pose_anchors/032_杨雄_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 6,
+      "cell": "1行2列",
+      "source_file": "F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "source_library_file_id": "libfile_cb39985a89b88191a19c980ef3f316c3",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        0,
+        768,
+        514
+      ],
+      "width": 384,
+      "height": 514,
+      "sha256": "67385694364ffe59dd69666a52797e2b504f624097467f295714ae7784f1c835",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/032_杨雄_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "石秀",
+      "anchor_file": "face_pose_anchors/033_石秀_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 6,
+      "cell": "2行1列",
+      "source_file": "F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "source_library_file_id": "libfile_cb39985a89b88191a19c980ef3f316c3",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        514,
+        384,
+        1001
+      ],
+      "width": 384,
+      "height": 487,
+      "sha256": "d4943ac1a6720b31146bbdad4c47919c46b57d4db3b5ed97f4e4e0dc20b106b3",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/033_石秀_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "解珍",
+      "anchor_file": "face_pose_anchors/034_解珍_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 6,
+      "cell": "2行2列",
+      "source_file": "F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "source_library_file_id": "libfile_cb39985a89b88191a19c980ef3f316c3",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        514,
+        768,
+        1001
+      ],
+      "width": 384,
+      "height": 487,
+      "sha256": "6bf8263bbabe91e31b605a1eace67f10a56922980cf717899c6a0578b55b3016",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/034_解珍_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "解宝",
+      "anchor_file": "face_pose_anchors/035_解宝_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 6,
+      "cell": "3行1列",
+      "source_file": "F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "source_library_file_id": "libfile_cb39985a89b88191a19c980ef3f316c3",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        0,
+        1001,
+        384,
+        1536
+      ],
+      "width": 384,
+      "height": 535,
+      "sha256": "b25c17d5e384dee7086cb5d61e21ecdc667ae79841d4474f6111a67016cffc63",
+      "resized": false,
+      "cup": "E Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/035_解宝_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "燕青",
+      "anchor_file": "face_pose_anchors/036_燕青_面部姿态锚点.png",
+      "purpose": "只参考该人物的面部与姿态；不参考服饰、身材或性感程度。",
+      "source_group": 6,
+      "cell": "3行2列",
+      "source_file": "F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "source_library_file_id": "libfile_cb39985a89b88191a19c980ef3f316c3",
+      "source_version": 0,
+      "source_width": 768,
+      "source_height": 1536,
+      "crop_box_xyxy": [
+        384,
+        1001,
+        768,
+        1536
+      ],
+      "width": 384,
+      "height": 535,
+      "sha256": "3f033438f5764bd12633d827fd431ed79e4475e711c178030d2703b0c1836c8f",
+      "resized": false,
+      "cup": "F Cup",
+      "clothing_source": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "complete_prompt_file": "prompts/036_燕青_完整提示词.txt",
+      "sensuality_primary_reference": "style_anchors/武松_性感首要与画风原图.png",
+      "supporting_style_references": [
+        "style_anchors/吴用_辅助画风认可旧图.jpeg",
+        "style_anchors/公孙胜_辅助画风认可旧图.jpeg"
+      ]
+    }
+  ],
+  "style_anchors": [
+    {
+      "file": "style_anchors/武松_性感首要与画风原图.png",
+      "source_library_file_id": "libfile_7b20a9d63ba0819183ecb690288b3929",
+      "purpose": "性感程度的首要视觉参考，同时参考画风。",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f79f3051da3a23913f0adc5429e3e21273657ecfb2fb53c09870ce79d9fbdbff"
+    },
+    {
+      "file": "style_anchors/吴用_辅助画风认可旧图.jpeg",
+      "source_library_file_id": "libfile_3d443bb9658081919a55bfa9fe65f7fd",
+      "purpose": "辅助画风、明暗组织与大面积水墨质感。",
+      "width": 864,
+      "height": 1536,
+      "sha256": "98ea211287ccef17382a4c953ea35660b213879dc97c01811f705e242d05f5e0"
+    },
+    {
+      "file": "style_anchors/公孙胜_辅助画风认可旧图.jpeg",
+      "source_library_file_id": "libfile_2f160a09b7f481919e8b3452b0490645",
+      "purpose": "辅助画风、明暗组织与大面积水墨质感。",
+      "width": 864,
+      "height": 1536,
+      "sha256": "13944d76424f11674dcba3c4ab73e15de19b4429c54a730ef26125d892b88ab5"
+    }
+  ]
+}

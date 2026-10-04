@@ -1,0 +1,459 @@
+{
+  "project": "娘山36天罡·角色参考与提示词",
+  "edition": "2026-10-04 完整36人版",
+  "file_count": 89,
+  "counts": {
+    "original_attachments": 9,
+    "face_pose_anchors": 36,
+    "style_anchors": 3,
+    "individual_complete_prompts": 36
+  },
+  "files": [
+    {
+      "file": "attachments/05F6F454-CE01-41F5-BBE5-8061475B64EF.jpeg",
+      "bytes": 389213,
+      "sha256": "2efb638a946ba1289199c5c380523714caf637be8be33a7452d7cf96969ea5c1"
+    },
+    {
+      "file": "attachments/679C2423-8052-45B2-A8E9-A65B360FD4CD.jpeg",
+      "bytes": 463199,
+      "sha256": "441c673ab2a6b999105f726d0cc65a7b7df9efe9f32128b544ea5bdb9d83c04f"
+    },
+    {
+      "file": "attachments/AD9796F3-CEF4-4E62-B37D-DC1CD7F3DAFE.jpeg",
+      "bytes": 392847,
+      "sha256": "8f49a81645b5b51fa59b4ad978c0e7d51039a3b91c0c56805b2841e8add88f1c"
+    },
+    {
+      "file": "attachments/CB5D51F2-2772-40A4-A123-1D0C777D8402.jpeg",
+      "bytes": 376629,
+      "sha256": "a58a0f6c24f88623d3f9bb730f34a592c0ed0178c8c12c09d45e70727304d157"
+    },
+    {
+      "file": "attachments/D9C9A830-9627-424B-8FFD-724CDA20AF96.jpeg",
+      "bytes": 469690,
+      "sha256": "4d9f0f19e6700eb56b3c4d5a339e25d745fe913b7648d1e50637ec2fbbbe8518"
+    },
+    {
+      "file": "attachments/F685EB2C-49D9-4F76-88C7-6B9D1DF35608.jpeg",
+      "bytes": 526275,
+      "sha256": "e7e092f75af6a700e2a22de0f13870eb6d3f184cff6cdff2d83d924c65e3d44a"
+    },
+    {
+      "file": "attachments/梁山108巾帼角色完整提示词(2).docx",
+      "bytes": 64342,
+      "sha256": "1eba17cba312f9c336ec9d2bbe3156410a6263b9ef270f52da36f6ccbc6d80ca"
+    },
+    {
+      "file": "attachments/梁山36天罡单人立绘提示词(1).docx",
+      "bytes": 46462,
+      "sha256": "448d0a7d51e230992543f7695d1016194b92d36616b137abd70a3436287723db"
+    },
+    {
+      "file": "attachments/梁山36天罡单人立绘提示词(1).txt",
+      "bytes": 16326,
+      "sha256": "cf6420bc1532052b4c2e6145609888d96931524b252f0067819c622175c61342"
+    },
+    {
+      "file": "style_anchors/公孙胜_辅助画风认可旧图.jpeg",
+      "bytes": 399488,
+      "sha256": "13944d76424f11674dcba3c4ab73e15de19b4429c54a730ef26125d892b88ab5"
+    },
+    {
+      "file": "style_anchors/吴用_辅助画风认可旧图.jpeg",
+      "bytes": 359268,
+      "sha256": "98ea211287ccef17382a4c953ea35660b213879dc97c01811f705e242d05f5e0"
+    },
+    {
+      "file": "style_anchors/武松_性感首要与画风原图.png",
+      "bytes": 2377145,
+      "sha256": "f79f3051da3a23913f0adc5429e3e21273657ecfb2fb53c09870ce79d9fbdbff"
+    },
+    {
+      "file": "face_pose_anchors/001_宋江_面部姿态锚点.png",
+      "bytes": 276900,
+      "sha256": "0c1fedaf03f89dee9f2d3e6a510cc0ab06030fd68429625c1ce503edbbf4e12f"
+    },
+    {
+      "file": "face_pose_anchors/002_卢俊义_面部姿态锚点.png",
+      "bytes": 278495,
+      "sha256": "f7f8f2c41fc7898e64b5622c0afbc96d082fcb2fd9d656e6ca0c6e29e7319dfc"
+    },
+    {
+      "file": "face_pose_anchors/003_吴用_面部姿态锚点.png",
+      "bytes": 240500,
+      "sha256": "bd4a203229453ff4889a5d5e98493ecd0c774167153f18972e42d55be013d716"
+    },
+    {
+      "file": "face_pose_anchors/004_公孙胜_面部姿态锚点.png",
+      "bytes": 235367,
+      "sha256": "4b063014d71fac110bba40fbf33828c6d83c63d40940845d4a26def93f5b9849"
+    },
+    {
+      "file": "face_pose_anchors/005_关胜_面部姿态锚点.png",
+      "bytes": 297662,
+      "sha256": "5c542ed974bebe64c054c8e3fa04689d2c4e1dd2d7dfb1ddaabb47955028ac34"
+    },
+    {
+      "file": "face_pose_anchors/006_林冲_面部姿态锚点.png",
+      "bytes": 282566,
+      "sha256": "9848ddf8bcbc6045343f9fd19666cff31f950253b0813b256d968519e3f9d943"
+    },
+    {
+      "file": "face_pose_anchors/007_秦明_面部姿态锚点.png",
+      "bytes": 257051,
+      "sha256": "d67c05e0316c00f5b892d616f795776c529f73b7156ac15bb2ac9d31279f67ca"
+    },
+    {
+      "file": "face_pose_anchors/008_呼延灼_面部姿态锚点.png",
+      "bytes": 258197,
+      "sha256": "10bb38c1c94e73e3f94d6cc45cbc736a24b39ee370b5594caf1fdf57893b3c19"
+    },
+    {
+      "file": "face_pose_anchors/009_花荣_面部姿态锚点.png",
+      "bytes": 280635,
+      "sha256": "34c58004f727b8df09851160c9bca34839c76bbe22e980d885c36880d14fb4a2"
+    },
+    {
+      "file": "face_pose_anchors/010_柴进_面部姿态锚点.png",
+      "bytes": 285952,
+      "sha256": "63935d9f54770d1fd788cd7812936188079f64b2ae30c9347ba922a2d89b6fd0"
+    },
+    {
+      "file": "face_pose_anchors/011_李应_面部姿态锚点.png",
+      "bytes": 266130,
+      "sha256": "9ee32ec4446f941c40868e8ee422713de2b26d32955d36806e25c28157edf3e3"
+    },
+    {
+      "file": "face_pose_anchors/012_朱仝_面部姿态锚点.png",
+      "bytes": 292201,
+      "sha256": "0dc4fe8d43a38d2ae07f42d2a89772ca46bbffb086627cb55f19e733f2f8ff82"
+    },
+    {
+      "file": "face_pose_anchors/013_鲁智深_面部姿态锚点.png",
+      "bytes": 279592,
+      "sha256": "f4ed20cef4619945340a29de8ec26b090c0df5a722eefba1f44a252ab2bc2be3"
+    },
+    {
+      "file": "face_pose_anchors/014_武松_面部姿态锚点.png",
+      "bytes": 258864,
+      "sha256": "3cdd35301e26beb7bad33a7c95af1ba6532501810b56e985e12ba2dd8e79f539"
+    },
+    {
+      "file": "face_pose_anchors/015_董平_面部姿态锚点.png",
+      "bytes": 254320,
+      "sha256": "d7d70b7be88d218d3586411d7e62d8fd5be41a894e0e1484cbfd3f7f2e7acd27"
+    },
+    {
+      "file": "face_pose_anchors/016_张清_面部姿态锚点.png",
+      "bytes": 236743,
+      "sha256": "d0f7b5067cd138831a782bacf8f285a49c3cd5cd470a40f3e7ab8db136f62d40"
+    },
+    {
+      "file": "face_pose_anchors/017_杨志_面部姿态锚点.png",
+      "bytes": 261393,
+      "sha256": "b28d7e6c000155134f89aae006a344cb8446cbf7aa47527c4526a1cbdb19edd8"
+    },
+    {
+      "file": "face_pose_anchors/018_徐宁_面部姿态锚点.png",
+      "bytes": 270255,
+      "sha256": "2199871c5c578de17b31949cbedc096555bc26422f44db50f6ec1c2d37aaa9a6"
+    },
+    {
+      "file": "face_pose_anchors/019_索超_面部姿态锚点.png",
+      "bytes": 353195,
+      "sha256": "feb4505a62172153cae07b914d9c1c3e981501973a04d8b7b049f38603173c7a"
+    },
+    {
+      "file": "face_pose_anchors/020_戴宗_面部姿态锚点.png",
+      "bytes": 285766,
+      "sha256": "1743744b64518c2dfc75786f4f11dcf0223d450784d6748eff37161e6d35b7be"
+    },
+    {
+      "file": "face_pose_anchors/021_刘唐_面部姿态锚点.png",
+      "bytes": 342626,
+      "sha256": "f82c8ff8510699d479c50ce7d9cb90f864fc87dc9eee5a5391937cf7a35e6586"
+    },
+    {
+      "file": "face_pose_anchors/022_李逵_面部姿态锚点.png",
+      "bytes": 308184,
+      "sha256": "5101d56f0854637382997b3e23e8ac182e1f369530f7282fc32a36eaa71373e3"
+    },
+    {
+      "file": "face_pose_anchors/023_史进_面部姿态锚点.png",
+      "bytes": 345283,
+      "sha256": "814d5c1f6e265b8f6365e771f33baaf9ed6d0ef1960803b840a6c184640e5848"
+    },
+    {
+      "file": "face_pose_anchors/024_穆弘_面部姿态锚点.png",
+      "bytes": 320144,
+      "sha256": "7263122ba4e3a93386e4b7499c00bcac2f3d74f40853a192d935ed4812a0788e"
+    },
+    {
+      "file": "face_pose_anchors/025_雷横_面部姿态锚点.png",
+      "bytes": 341775,
+      "sha256": "4616e5591bae0f537a62f5692f7fbdbb9a27cec59ea5502c8d339cd9757c7209"
+    },
+    {
+      "file": "face_pose_anchors/026_李俊_面部姿态锚点.png",
+      "bytes": 334335,
+      "sha256": "e41a7b4d7ebcf821a82bc31e274f8e353c075dccae994db11be6147fcf8801c8"
+    },
+    {
+      "file": "face_pose_anchors/027_阮小二_面部姿态锚点.png",
+      "bytes": 345157,
+      "sha256": "659664531caf5a883bd360d7be8f29a0e577e2297aa60624c45d21bd698b60ff"
+    },
+    {
+      "file": "face_pose_anchors/028_张横_面部姿态锚点.png",
+      "bytes": 324089,
+      "sha256": "5e70aabbe9e182aa3b633ca609bbc0511d7e8d4f7fa6f07c5d4582816004accb"
+    },
+    {
+      "file": "face_pose_anchors/029_阮小五_面部姿态锚点.png",
+      "bytes": 335890,
+      "sha256": "5eeb6263cb221abe7a13adf486945dd4937c5931fcbc5e955cd6926b17dbc143"
+    },
+    {
+      "file": "face_pose_anchors/030_张顺_面部姿态锚点.png",
+      "bytes": 282029,
+      "sha256": "5787308d4bcf2bb152e856ac9f1ef7816e468e2291ed08d447e6fa0a719efca5"
+    },
+    {
+      "file": "face_pose_anchors/031_阮小七_面部姿态锚点.png",
+      "bytes": 360920,
+      "sha256": "7794fc4423ddf184642867844abf0f84a2dbae11dea12346344fee6becb9fa97"
+    },
+    {
+      "file": "face_pose_anchors/032_杨雄_面部姿态锚点.png",
+      "bytes": 361209,
+      "sha256": "67385694364ffe59dd69666a52797e2b504f624097467f295714ae7784f1c835"
+    },
+    {
+      "file": "face_pose_anchors/033_石秀_面部姿态锚点.png",
+      "bytes": 320170,
+      "sha256": "d4943ac1a6720b31146bbdad4c47919c46b57d4db3b5ed97f4e4e0dc20b106b3"
+    },
+    {
+      "file": "face_pose_anchors/034_解珍_面部姿态锚点.png",
+      "bytes": 372049,
+      "sha256": "6bf8263bbabe91e31b605a1eace67f10a56922980cf717899c6a0578b55b3016"
+    },
+    {
+      "file": "face_pose_anchors/035_解宝_面部姿态锚点.png",
+      "bytes": 425252,
+      "sha256": "b25c17d5e384dee7086cb5d61e21ecdc667ae79841d4474f6111a67016cffc63"
+    },
+    {
+      "file": "face_pose_anchors/036_燕青_面部姿态锚点.png",
+      "bytes": 349008,
+      "sha256": "3f033438f5764bd12633d827fd431ed79e4475e711c178030d2703b0c1836c8f"
+    },
+    {
+      "file": "prompts/001_宋江_完整提示词.txt",
+      "bytes": 2235,
+      "sha256": "36276cc33d01bb70d17707d2372ac4346bb834e3beb27da9b1f2521feeb0234d"
+    },
+    {
+      "file": "prompts/002_卢俊义_完整提示词.txt",
+      "bytes": 2203,
+      "sha256": "389c49c4bb366a3c16e20563d4cd4a583bc527bce8653e2ab2c1303255f601e5"
+    },
+    {
+      "file": "prompts/003_吴用_完整提示词.txt",
+      "bytes": 2214,
+      "sha256": "20b5817a628d623b51bb0f14891af83450d796577d013e5281665d41235d9eb9"
+    },
+    {
+      "file": "prompts/004_公孙胜_完整提示词.txt",
+      "bytes": 2190,
+      "sha256": "b8d39cf99a2e4bdc428e107d322cbf712c1ba4ea42d50bed387b1c64c88717e6"
+    },
+    {
+      "file": "prompts/005_关胜_完整提示词.txt",
+      "bytes": 2200,
+      "sha256": "283d3c7e1fc04a6ae9a841ee0392a3277faaa003f1aec379546b107ca93bba6d"
+    },
+    {
+      "file": "prompts/006_林冲_完整提示词.txt",
+      "bytes": 2208,
+      "sha256": "853d12dba099e3909f11c0b8ed8c3a7545686562eca59389b7cf17bb57c5638e"
+    },
+    {
+      "file": "prompts/007_秦明_完整提示词.txt",
+      "bytes": 2196,
+      "sha256": "347dfcddccf3af9bc79627df9916c1352a82c34cfc938599748c4412b3e3b22e"
+    },
+    {
+      "file": "prompts/008_呼延灼_完整提示词.txt",
+      "bytes": 2199,
+      "sha256": "0d33193201fb105c254c301488e5914b349e872a4c8c88a0e80c395e1cad4119"
+    },
+    {
+      "file": "prompts/009_花荣_完整提示词.txt",
+      "bytes": 2172,
+      "sha256": "fcc35419778e553b6db1b3141a98f4c16fa039f86c3d1672d76431c98e322a7f"
+    },
+    {
+      "file": "prompts/010_柴进_完整提示词.txt",
+      "bytes": 2175,
+      "sha256": "c3e1c993fc546205a1b3ffcd3bc3d6683c3c66147ddc686c7f372442a78b96ce"
+    },
+    {
+      "file": "prompts/011_李应_完整提示词.txt",
+      "bytes": 2175,
+      "sha256": "db5cf3c52b6dbe300f773dd966cf1ee0486b27b1eb35c1adf3470cfe4ecca9c9"
+    },
+    {
+      "file": "prompts/012_朱仝_完整提示词.txt",
+      "bytes": 2184,
+      "sha256": "160cfb525a7e3baed68121ac86a2d2252cf2c13d5e91e49ec041ad8f73acc833"
+    },
+    {
+      "file": "prompts/013_鲁智深_完整提示词.txt",
+      "bytes": 2193,
+      "sha256": "2524f04266b6f55afa1f6150206a1dc24b7fbf06704e5880a9b213c2095733c6"
+    },
+    {
+      "file": "prompts/014_武松_完整提示词.txt",
+      "bytes": 2223,
+      "sha256": "3c56ac3af50990debc1bbb02a6d8b31710704bdc1455450da28abfe1689270a2"
+    },
+    {
+      "file": "prompts/015_董平_完整提示词.txt",
+      "bytes": 2217,
+      "sha256": "7a2cf22f79ec72fc09b5e4073800964f222c3ffccbd58f09f2e0d4604eb63d6d"
+    },
+    {
+      "file": "prompts/016_张清_完整提示词.txt",
+      "bytes": 2181,
+      "sha256": "32c4dea1956c001366d266d7ed9cee14ce6c5ebb4be2d4a9980f0c98c65dbdbd"
+    },
+    {
+      "file": "prompts/017_杨志_完整提示词.txt",
+      "bytes": 2211,
+      "sha256": "f2105b3353c43d55a7b64c66c53bcbbaaedbb5bfb4a56134a636af6ecfc2e2e6"
+    },
+    {
+      "file": "prompts/018_徐宁_完整提示词.txt",
+      "bytes": 2178,
+      "sha256": "4f8c18cbefe52a9b19b8a4c75fed6a635c3134129781362d65c24130f4332171"
+    },
+    {
+      "file": "prompts/019_索超_完整提示词.txt",
+      "bytes": 2154,
+      "sha256": "4dfce7081ef862279ff1ef8e37b5fcffee6c49a30f1f3805366b17fe2ce8258a"
+    },
+    {
+      "file": "prompts/020_戴宗_完整提示词.txt",
+      "bytes": 2202,
+      "sha256": "9d87228244f27d18d55f4d67cb0e7a6964680df43a5d1ee3d1e71dd532dd3ec3"
+    },
+    {
+      "file": "prompts/021_刘唐_完整提示词.txt",
+      "bytes": 2178,
+      "sha256": "e42cec0fe530ead98d72b85278e82a242911989593263a746c1ead3ec3dfe351"
+    },
+    {
+      "file": "prompts/022_李逵_完整提示词.txt",
+      "bytes": 2205,
+      "sha256": "12e51962ff4a16ed57c134113f3eeeb5daa2bb69a78c05cc8bb93c6d9527d82d"
+    },
+    {
+      "file": "prompts/023_史进_完整提示词.txt",
+      "bytes": 2187,
+      "sha256": "3f57afd5c320cdb0c5709092e7defb012dada94cc99a1098e10c99f1f7262feb"
+    },
+    {
+      "file": "prompts/024_穆弘_完整提示词.txt",
+      "bytes": 2175,
+      "sha256": "71c4fd090c85f281ec0281e6f85e992a951a21ba91974ad4eaba95dac62ffb50"
+    },
+    {
+      "file": "prompts/025_雷横_完整提示词.txt",
+      "bytes": 2166,
+      "sha256": "780b9320b1fdf5b95fc07853f581930c4723550defe795e8d9c29f3800df1767"
+    },
+    {
+      "file": "prompts/026_李俊_完整提示词.txt",
+      "bytes": 2190,
+      "sha256": "29effa3ee83c5d14c6d3a3b42debe128070ada98abdaa0fad92a7892575831c4"
+    },
+    {
+      "file": "prompts/027_阮小二_完整提示词.txt",
+      "bytes": 2178,
+      "sha256": "75cc760b110e7013935a42aa8e01acdbc13a87bd5704a9d2a34fb43f29a08249"
+    },
+    {
+      "file": "prompts/028_张横_完整提示词.txt",
+      "bytes": 2184,
+      "sha256": "ffad94ebbd3a64ab7e0a7e0c30136c0a32510f5d8b179e006d6c353d797fd03b"
+    },
+    {
+      "file": "prompts/029_阮小五_完整提示词.txt",
+      "bytes": 2196,
+      "sha256": "e9e080617c454413313aa36c24885a516dd9fd004ff0cc03606f92b8a332042c"
+    },
+    {
+      "file": "prompts/030_张顺_完整提示词.txt",
+      "bytes": 2190,
+      "sha256": "79879d0cb922f7e1789f198fff84fce2435e3e940a31bacd0bd7cf9b142581b8"
+    },
+    {
+      "file": "prompts/031_阮小七_完整提示词.txt",
+      "bytes": 2193,
+      "sha256": "f1fd86768779f83257f54d9a1fe626c37c6970da257ea8e715441147f81f985d"
+    },
+    {
+      "file": "prompts/032_杨雄_完整提示词.txt",
+      "bytes": 2187,
+      "sha256": "766915f880f81b873dc48f5e29f430ce42bfd574c25501025ca408e8660d9943"
+    },
+    {
+      "file": "prompts/033_石秀_完整提示词.txt",
+      "bytes": 2172,
+      "sha256": "9d31927cb2842fb31a1cadcb237dc56099f81bfcd28caa7d929c1b743a12a941"
+    },
+    {
+      "file": "prompts/034_解珍_完整提示词.txt",
+      "bytes": 2178,
+      "sha256": "06a70da909badb6452440e612a045f189ff3c2e086ba14ac5730037234da18e5"
+    },
+    {
+      "file": "prompts/035_解宝_完整提示词.txt",
+      "bytes": 2184,
+      "sha256": "d5472feb306c43bc414c0c356e43c09c834e6aff30aaab6167052fe35d5b4d25"
+    },
+    {
+      "file": "prompts/036_燕青_完整提示词.txt",
+      "bytes": 2220,
+      "sha256": "02b946884eb6983aa5b25b819e2c57691fc9a0d6c0a44f197606825fb386129a"
+    },
+    {
+      "file": "娘山36天罡_完整独立提示词.txt",
+      "bytes": 79401,
+      "sha256": "5294a1c6709311e2a45a78f66739855785ee9ed429f2812da1742b69544c147c"
+    },
+    {
+      "file": "娘山36天罡_完整独立提示词.json",
+      "bytes": 108527,
+      "sha256": "355aa4147bd20e2ca781edef4f78086b959309bc7be9db1ffd8df6c24a1ac4a7"
+    },
+    {
+      "file": "角色_源图_格位_锚点清单.txt",
+      "bytes": 6216,
+      "sha256": "0ec4974153cd20bbe63f65fdade5a5f87a5c25c206cf90ccba11019a9b01d0dc"
+    },
+    {
+      "file": "角色_源图_格位_锚点清单.json",
+      "bytes": 44235,
+      "sha256": "1bc51e41afb93b39342f5e047b9a465ac6e16698b18e204f6c12972b4fe4a8a3"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 2086,
+      "sha256": "980c2f728d7d7a51a57e78695794f6f42a37bc9d9458af51c423f3a89b0b2d1a"
+    }
+  ],
+  "note": "校验清单覆盖全部资料内容文件，不包含清单自身与ZIP，以避免循环。"
+}
